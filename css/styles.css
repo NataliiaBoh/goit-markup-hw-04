@@ -174,10 +174,37 @@
     font-size: 20px;
     line-height: 1.2;
 }
+
 .about-element {
     width: 264px;
 
 }
+.thumb {
+
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background: #F4F4FD;
+    border-radius: 4px;
+}
+.about-icon {
+    display: inline-block;
+    width: 264px;
+    height: 64px;
+    margin-top: 24px;
+    
+  
+
+}
+/*.about-element::before {
+    display: block;
+    height: 112px;
+    background-size: contain;
+    background-position: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+
+}*/
 .doing-list {
     display: flex;
 }
@@ -210,6 +237,62 @@
     padding: 32px 0;
     border-radius: 4px;
 }
+.icon-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 232px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+.team-item {
+
+}
+.team-icon {
+    width: 40px;
+    height: 40px;
+
+}
+/*customers*/
+.customers-section{
+    padding-top: 130px;
+    
+}
+.customers-list {
+    display: flex;
+    flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+
+}
+
+.customers-item {
+
+}
+.customers-thumb {
+border: 1px solid #8E8F99;
+border-radius: 4px;
+width: 168px;
+height: 88px;
+}
+.customers-link {
+
+}
+.customers-icon {
+    display: inline-block;
+width: 104px;
+height: 56px;
+margin-top: 16px;
+margin-left: 32px;
+
+
+
+}
 
 /*portfolio*/
 
@@ -237,6 +320,7 @@
 }
 .portfolio-element {
      border: 1px solid #E7E9FC ;
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
      flex-basis: calc((100% - 48px) / 3);
     }
 
@@ -258,6 +342,10 @@
     color: #E7E9FC;
     padding: 100px 0;
 }
+.footer-list {
+    display: flex;
+    r
+}
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -267,6 +355,31 @@
     width: 264px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.media-list {
+    width: 208px;
+    height: 80px;
+   
+}
+.footer-item {
+    margin-left: 120px;
+
+}
+.footer-item .title {
+    margin-bottom: 16px;
+}
+.media-list {
+    display: flex;
+    padding: 0px;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
+}
+.footer-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
 }
 .list .button {
     background-color: #F4F4FD;
