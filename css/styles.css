@@ -456,6 +456,9 @@
     background-color: #31D0AA;
    
 }
+.footer-link :focus {
+    background-color: #31D0AA;
+}
 
 .footer-icon {
     width: 24px;
